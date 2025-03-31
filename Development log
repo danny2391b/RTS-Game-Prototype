@@ -29,4 +29,4 @@
 - The correct condition is Mouse X ≥ (Viewport Width - EdgeMargin) to properly trigger right edge scrolling.
 
 ### Next Steps
-- Implement zoom for the RTS camera
+- Implement zoom for the RTS camera and making the mouse visible
