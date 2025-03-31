@@ -1,0 +1,47 @@
+Open the Character Blueprint:
+
+Navigate to your Character Blueprint (e.g., BP_PlayerCharacter).
+
+Open the Event Graph tab.
+
+Add Input Axis Events:
+
+In Project Settings > Input, add the following Axis Mappings:
+
+MoveCameraX → Arrow Left (-1) and Arrow Right (+1)
+
+MoveCameraY → Arrow Up (+1) and Arrow Down (-1)
+
+Back in the Event Graph, search for MoveCameraX and MoveCameraY and add Axis Events for both.
+
+Move Camera with Keyboard Input:
+
+Drag off from the MoveCameraX event and add an Add Controller Yaw Input node.
+
+Connect the Axis Value to the Add Controller Yaw Input node.
+
+Drag off from the MoveCameraY event and add an Add Controller Pitch Input node.
+
+Connect the Axis Value to the Add Controller Pitch Input node.
+
+Implement Mouse Edge Scrolling:
+
+Add an Event Tick node.
+
+Drag off from it and add a Get Player Controller node.
+
+From Get Player Controller, drag out and add a Get Mouse Position node.
+
+Drag out from Get Mouse Position and store MouseX and MouseY as float variables.
+
+Get Viewport Size by adding a Get Viewport Size node.
+
+Compare MouseX and MouseY with the screen edges:
+
+If MouseX <= 10, add -1 to Add Controller Yaw Input.
+
+If MouseX >= Viewport Width - 10, add +1 to Add Controller Yaw Input.
+
+If MouseY <= 10, add +1 to Add Controller Pitch Input.
+
+If MouseY >= Viewport Height - 10, add -1 to Add Controller Pitch Input.
