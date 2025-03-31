@@ -1,6 +1,6 @@
 # Development Log
-
-## [31/03/2025], 18:13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [31/03/2025], 16:56 - 18:13
 ### What I Worked On
 - Implemented RTS camera movement using arrow keys with Enhanced Input.
 
@@ -12,9 +12,8 @@
 
 ### Next Steps
 - Implement zoom, and edge scrolling for the RTS camera.
-
-
-## [31/03/2025], 19:40
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [31/03/2025], 18:13 - 19:40
 ### What I Worked On
 - Fixed the right edge scrolling issue for the RTS camera.
 
@@ -30,3 +29,18 @@
 
 ### Next Steps
 - Implement zoom for the RTS camera and making the mouse visible
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [31/03/2025], 21:27 - 21:32
+### What I worked on
+- Making the mouse visible
+
+### Challenges
+- I have no clue how to
+
+### Solution
+- Searched online for an answer
+- All I had to do was Get the player controller and set the Mouse curser to true on Event BeginPlay
+
+### Next Steps
+- Implement Zoom for the RTS Camera
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
