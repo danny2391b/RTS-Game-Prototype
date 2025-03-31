@@ -1,0 +1,14 @@
+# Development Log
+
+## [31/03/2025], 18:13
+### What I Worked On
+- Implemented RTS camera movement using arrow keys with Enhanced Input.
+
+### Challenges
+- Couldn’t find Scale option in Enhanced Input.
+
+### Solution
+- Used 'Negate (Float)' modifier to make A = -1 and B = 1 for both.
+
+### Next Steps
+- Implement zoom, pan, and edge scrolling for the RTS camera.
