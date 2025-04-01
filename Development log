@@ -103,3 +103,17 @@
 ### Next Steps
 - Implement unit movement using right-click.
 - Add a selection highlight effect when a unit is selected.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [1/04/2025], 18:50 - 19:00
+### What I Worked On
+- making the variable type for selecting an array to make sure i can select multiple units in the future.
+
+### Challenges
+- couldn't remember how to
+
+### Solution
+- found the option next to it to change it to an array
+
+### Next Steps
+- Implement unit movement using right-click.
+- Add a selection highlight effect when a unit is selected.
