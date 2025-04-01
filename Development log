@@ -64,7 +64,7 @@
 ### Next Steps
 - bug fixes with the camera then onto the rest of the prototype
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## [01/04/2025], 16:27: 16:58
+## [01/04/2025], 16:27 - 16:58
 ### What I worked on
 - Bug Fixes
 
@@ -74,7 +74,7 @@
 
 ### Solution
 - I set the viewport width and height variables in the Event BeginPlay but I should have put it in Event Tick
-- i just increased the multiply by action value so it's divisible by 1000 and i put 250 so there are 4 increments
+- I just increased the multiply by action value so it's divisible by 1000 and i put 250 so there are 4 increments
 
 ### Next Steps
 - the rest of the prototype
