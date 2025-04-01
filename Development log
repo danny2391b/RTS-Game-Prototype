@@ -79,3 +79,20 @@
 ### Next Steps
 - the rest of the prototype
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [1/04/2025], 18:04 - 18:33
+### What I Worked On
+- Created a unit blueprint (BP_Unit).
+
+- Set up collision for units.
+
+### Challenges
+- Had to adjust collision settings to ensure the unit could be clicked properly.
+
+### Solution
+- Set the Capsule Collision in BP_Unit to respond to visibility and clicks.
+
+### Next Steps
+- Implement unit movement using right-click.
+- Implement unit selection.
+- Add a selection highlight effect when a unit is selected.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
