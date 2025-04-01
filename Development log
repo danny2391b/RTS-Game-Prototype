@@ -44,3 +44,23 @@
 ### Next Steps
 - Implement Zoom for the RTS Camera
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [01/04/2025], 15:00 - 16:13
+### What I worked on
+- Implemeting a zoom feature
+
+### Challenges
+- I have no clue how to change the FOV of the current camera
+- Mouse wheel axis didn't work how i expected in the enhanced Input system
+- Mouse wheel zoom in went the wrong way round so if i zoomed in it would zoom out
+- couldn't work out how to stop the zoom going to far in or too far out
+
+### Solution
+- found a "Set Field Of View" node
+- Used Mouse Wheel Up and Mouse Wheel Down instead and negated mouse wheel down
+- Should have negated Mouse wheel up
+- used SpringArm Length instead of FOV in case i want to mess with the fov
+- used a clamp to make sure it doesn't go too far in or out
+
+### Next Steps
+- bug fixes with the camera then onto the rest of the prototype
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
