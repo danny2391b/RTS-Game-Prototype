@@ -64,3 +64,18 @@
 ### Next Steps
 - bug fixes with the camera then onto the rest of the prototype
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [01/04/2025], 16:27
+### What I worked on
+- Bug Fixes
+
+### Bugs
+- edge scrolling messes up when you change resolution or make it fullscreen 
+- The Zoom doesn't zoom incrementally it zooms smoothly
+
+### Solution
+- I set the viewport width and height variables in the Event BeginPlay but I should have put it in Event Tick
+- i just increased the multiply by action value so it's divisible by 1000 and i put 250 so there are 4 increments
+
+### Next Steps
+- bug fixes with the camera then onto the rest of the prototype
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
