@@ -118,18 +118,15 @@
 - Implement unit movement using right-click.
 - Add a selection highlight effect when a unit is selected.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## [4/04/2025], 16:55 - 19:32
+## [4/04/2025], 19:32 - 21:37
 ### What I Worked On
-- making a unit selectable and moveable
+- making a building system
 
 ### Challenges
-- mixing up the engines
-- forgetting how to use Rects
-- forgetting a lot of stuff about raycasts
-- Error with unit selection where the unit was out of bounds
+- having to remember how to use instantiate
 
 ### Solutions 
 - google whenever I got stuck
 
 ### Next Steps
-- base building
+- making buildings work
