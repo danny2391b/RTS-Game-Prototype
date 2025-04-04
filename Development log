@@ -118,15 +118,18 @@
 - Implement unit movement using right-click.
 - Add a selection highlight effect when a unit is selected.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## [4/04/2025], 16:16 - 16:40
+## [4/04/2025], 16:55 - 19:32
 ### What I Worked On
-- Remade the Camera i made in unreal to unity
+- making a unit selectable and moveable
 
 ### Challenges
 - mixing up the engines
+- forgetting how to use Rects
+- forgetting a lot of stuff about raycasts
+- Error with unit selection where the unit was out of bounds
+
+### Solutions 
+- google whenever I got stuck
 
 ### Next Steps
-- Add a unit to mess with
-- add unit selection
-- Implement unit movement using right-click.
-- change the unit colour when clicked.
+- base building
