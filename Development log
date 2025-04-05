@@ -130,3 +130,38 @@
 
 ### Next Steps
 - making buildings work
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [4/04/2025], 8:51 - 9:08
+### What I Worked On
+- Made buildings selectable with single click and Shift+click (similar to units)
+- Created BuildingSelections system with highlighting support
+
+### Challenges
+- Null reference errors when trying to access highlight objects
+- Some buildings didn't have child objects or expected components, causing crashes
+
+### Solutions
+- Added null checks and fallback logic to safely highlight buildings
+- Ensured selection logic mirrors unit selection behavior for consistency
+
+### Next Steps
+- Make buildings interactable (e.g., open UI when selected)
+- Add right-click command functionality (e.g., send units to buildings)
+- Clean up selection visuals (standardize highlight object naming)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [4/04/2025], 9:26 - 9:49
+### What I Worked On
+- Implemented building selection functionality so clicking a building brings up its UI panel.
+
+### Challenges
+- Clicking a building did not trigger the UI to show, even though the logic was in place inside BuildingSelections.
+
+### Solutions
+- Realized the click logic was always calling UnitSelections, even for buildings.
+
+- Added a tag check ("Unit" and "Building") in UnitClick.cs to route the click to the correct selection manager.
+
+- Once the building was routed to BuildingSelections, the ShowBuildingUI(true) call worked properly.
+
+### Next Steps
+- make the button to make a unit functional
