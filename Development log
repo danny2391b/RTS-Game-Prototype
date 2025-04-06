@@ -178,3 +178,16 @@
 
 ### Next Steps
 - add a money system for testing
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [6/04/2025], 19:51 - 20:16
+### What I Worked On
+- adding more buildings and units added a money system yesterday but forgot to add it to the dev log
+
+### Challenges
+- differentiating building types
+
+### Solutions
+- added a way to add units and ui to the script without changing the script
+
+### Next Steps
+- not sure yet
