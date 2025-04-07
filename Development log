@@ -191,3 +191,49 @@
 
 ### Next Steps
 - not sure yet
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [7/04/2025], 9:26 - 11:49
+
+### What I Worked On
+- Made building selection ignore clicks on UI
+- Fixed UI panels deselecting buildings when clicked
+- Made the 'Make Unit' button functional
+- Added ability to place buildings only when enough money is available
+- Allowed canceling building placement with right click
+- Made selection UI close when a new building is being placed
+-Created a flexible UI system that supports multiple building types (e.g., Barracks, War Factory)
+- Added cooldown and build time system to unit spawning
+- Fixed error: The referenced script on this Behaviour (Game Object '') is missing
+### Challenges
+- UI deselecting buildings when interacting with it
+- Preventing building placement when not enough money is available
+- Keeping track of canceled building placement and refunding cost
+- Supporting scalable UI for multiple building types
+- Preventing script errors when instantiating buildings with missing components
+### Solutions
+- Used EventSystem.current.IsPointerOverGameObject() to detect UI interaction
+- Took money before allowing building placement and refunded it on cancel
+- Deselected all current buildings when placing a new one to prevent UI from staying open unnecessarily
+- Created BuildingUIEntry system with tag-to-panel mapping for scalable UI support
+- Verified prefab references and made sure they're not null before instantiation
+### Next Steps
+- Add progress bars and visual indicators for unit build time
+- Add individual cooldown timers for each building
+- Show feedback when trying to build without enough money
+- Implement queuing system for units
+- Add audio/visual feedback on building placement and unit creation
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## [7/04/2025], 11:56 - 12:38
+
+### What I Worked On
+- Implemented progress bars for unit and tank building processes in the UI.
+- Added sliders to the UI panels for each building type, allowing for a visual progress display during the construction of units and tanks.
+- Updated the BuildingSelections script to check and update the progress bars within the building UI panels as units and tanks are built.
+- Ensured the sliders are shown when a building is selected and hidden once the construction is complete.
+- Updated unit and tank spawning system to display both build time and cooldown time on a single slider in the UI.
+- The slider first fills up during the build time (unit/tank being built), 
+  then resets and fills up again to represent the cooldown time after the unit is spawned, preventing further use until the cooldown is complete.
+
+### Bug Fixes
+- Fixed a NullReferenceException that occurred due to incorrect UI component references when building units/tanks. 
+  The issue was resolved by ensuring that the correct UI elements (sliders) are targeted and shown properly.
